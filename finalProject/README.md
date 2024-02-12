@@ -18,6 +18,7 @@
     * Open files: Use FileSystem API with user permission prompts.
     * Save & download files: Create downloadable Blob files with current content.
 * **Optional:** Syntax highlighting for various languages (later integration).
+* **Optional:** Script to parse text file into a JSON structured summary of the contained code.
 
 **Fulfillment of Project Requirements:**
 
@@ -39,7 +40,7 @@
 
 *(Generated Using Google Gemini 02-12-2024, modified by Jarom Anderson)*
 
-(No AI used below)
+*(No AI used below)*
 
 ## Project Outline:
 
