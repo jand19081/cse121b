@@ -36,8 +36,5 @@
 * Syntax highlighting is optional and can be added later.
 * Explore alternative approaches if FileSystem API proves challenging.
 
-**Remember:** This is a high-level summary. Specific implementation details will depend on your code and chosen libraries.
-
-I hope this markdown version is helpful! Feel free to ask any further questions.
 
 (Generated Using Google Gemini 02-12-2024, modified by Jarom Anderson)
