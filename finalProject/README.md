@@ -37,7 +37,9 @@
 * Explore alternative approaches if FileSystem API proves challenging.
 
 
-(Generated Using Google Gemini 02-12-2024, modified by Jarom Anderson)
+*(Generated Using Google Gemini 02-12-2024, modified by Jarom Anderson)*
+
+(No AI used below)
 
 ## Project Outline:
 
