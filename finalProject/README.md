@@ -47,6 +47,7 @@
 ### File Structure -
 **index.html** - The homepage/welcome screen that welcomes the user, asks for file permission, and allows the user to open the editor.
    **- editor.html** - The editor page. Consisting of a the NAV, divs for the file explorer and text editior, and footer.
+   **- parser.html** - The parser page which parses the file to JSON in order to provide a sumamry of the code.
 
 ## Project Reources:
 
