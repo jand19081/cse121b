@@ -44,3 +44,16 @@
 ### File Structure -
 **index.html** - The homepage/welcome screen that welcomes the user, asks for file permission, and allows the user to open the editor.
    **- editor.html** - The editor page. Consisting of a the NAV, divs for the file explorer and text editior, and footer.
+
+## Project Reources:
+
+### Filesystem Links:
+ * [MDN Docs FileSystemAPI](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API)
+ * [Chrome Docs - Filesystem Access API](https://developer.chrome.com/docs/capabilities/web-apis/file-system-access)
+ * [Example: File System Access API Tutorial](https://www.youtube.com/watch?v=8EcBJV0sOSU)
+
+ ### Other:
+ * [HTML5 File API](https://developer.mozilla.org/en-US/docs/Web/API/File)
+ * [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard)
+ * [Highlight.js](https://highlightjs.org/)
+ * [Prism.js](https://prismjs.com/)
