@@ -26,7 +26,7 @@
 * **Conditional branching:** ✅ (conditional logic for various functions)
 * **Array methods:** ✅ (potential use for line numbering or other features)
 * **Template literals:** ✅ (exclusively using them for string construction)
-* **External data (low priority):** Not implemented in this version.
+* **External data (low priority):** Implemented using the welcome screen.
 * **Submission:** Store project in a subfolder within `cse121b` and submit URL. ✅
 
 **Additional Notes:**
@@ -38,3 +38,9 @@
 
 
 (Generated Using Google Gemini 02-12-2024, modified by Jarom Anderson)
+
+## Project Outline:
+
+### File Structure -
+**index.html** - The homepage/welcome screen that welcomes the user, asks for file permission, and allows the user to open the editor.
+   **- editor.html** - The editor page. Consisting of a the NAV, divs for the file explorer and text editior, and footer.
