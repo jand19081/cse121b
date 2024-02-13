@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Summary Tool</title>
+</head>
+<body>
+    <h1>Code Summary</h1>
+    <p id="supportedLanguages"></p>
+    <p>Enter the URL of the code file:</p>
+    <input type="text" id="codeUrl"><br>
+    <button onclick="setUrl()">Get Raw Code</button>
+    <p id="fileExtension"></p>
+    <pre id="rawText"></pre>
+    <button onclick="summarizeText()">Summarize Code</button> <pre id="summary"></pre>
+
+
+
+    <script src="./parser.js"></script>
+</body>
+</html>
