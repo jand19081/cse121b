@@ -7,16 +7,40 @@
 </head>
 <body>
     <h1>Code Summary</h1>
-    <p id="supportedLanguages"></p>
+    <strong><p id="supportedLanguages"></p></strong>
     <p>Enter the URL of the code file:</p>
     <input type="text" id="codeUrl"><br>
-    <button onclick="setUrl()">Get Raw Code</button>
     <p id="fileExtension"></p>
-    <pre id="rawText"></pre>
-    <button onclick="summarizeText()">Summarize Code</button> <pre id="summary"></pre>
+    
+    <div id="code">
+      <h2>Raw Code: </h2>
+      <button id="rawCodeButton" onclick="setUrl()">Get Raw Code</button>
+      <pre id="rawText">Nothing to see here...</pre>
+    </div>
 
+    <div id="tree">
+      <h2>AST:</h2>
+      <button id="astButton" onclick="getAst()">Get AST</button>
+      <pre id="ast-container">Nothing to see here...</pre>
+    </div>
+
+    <div id="summary">
+      <h2>Code Summary:</h2>
+      <button id="wummaryButton" onclick="summarizeText()">Summarize Code</button>
+      <pre id="codeSummary">Nothing to see here...</pre>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/acorn@8.7.0/dist/acorn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/acorn-walk@8.3.2"></script>
 
 
     <script src="./parser.js"></script>
+    
+
+
+
 </body>
 </html>
