@@ -3,7 +3,7 @@
 /* Profile Object  */
 let myProfile = {
     name : "Jarom Andrson",
-    photo : "../images/linkedinprofile.jpg",
+    photo : "images/linkedinprofile.jpg",
     favoriteFoods : [ "Rice & Beans", "Pizza", "Cobbler", "Steak", "Chicken" ],
     hobbies : [ "Hiking", "Camping", "Backpacking", "Waterskiing", "Paddleboarding" ],
     placesLived : []
